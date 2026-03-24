@@ -3,7 +3,7 @@ const productos = [
   { id: 2, nombre: 'Teclado Mecánico', precio: 1800, categoria: 'Periféricos' },
   { id: 3, nombre: 'Monitor 4K', precio: 8500, categoria: 'Electrónica' }
 ];
-
+//
 export default function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Content-Type', 'application/json');
